@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/list/main",
+    "pages/map/main",
+    "pages/mine/main"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/homes.png",
+      "selectedIconPath": "static/images/home.png"
+    },{
+      "text": "行程",
+      "pagePath": "pages/map/main",
+      "iconPath": "static/images/trips.png",
+      "selectedIconPath": "static/images/trip.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/images/mines.png",
+      "slectedIconPath": "static/images/mine.png"
+    }],
+    "position": "bottom"
+  }
+}
